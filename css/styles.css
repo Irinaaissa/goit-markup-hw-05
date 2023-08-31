@@ -20,7 +20,70 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
+/* menu */
+.menu-contacts{
+  color:  #2E2F42;
+text-align: center;
+width: 360px;
+font-size: 16px;
+font-weight: 500;
+line-height:1,5;
+letter-spacing: 0.02em;
+padding-top: 72px;
+padding-bottom: 16px;
+}
+.menu{
+  flex-direction: column;
+  width: 408px;
+flex-shrink: 0;
+border-radius: 4px;
+background:  #FCFCFC;
+justify-content: center;
+padding-left: 24px;
+padding-right: 24px;
+}
+.form {
+  padding: ;
+  border-radius: 4px;
+  display: flex;
+  width: 408px;
+  height: 584px;
+flex-direction: column;
+align-items: flex-start;
+row-gap: 8px;
+}
+.form-button {
+  color: #fff;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+background-color: #4d5ae5;
+cursor: pointer;
+letter-spacing: 0.04em;
+display: flex;
+margin-right: auto;
+margin-left: auto;
+width:  169px;
+height: 56px;
+padding: 16px 32px;
+border: none;
+border-radius: 4px;
+display: block;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input {
+  padding-bottom:  8px not(last-child);
+  border-radius: 4px;
+  /* border: 1px solid #2e2f42 rgba(46, 47, 66, 0.40); */
+}
+.form-label{
+  display:flex;
+  flex-direction:column;
+  padding-bottom: 4px;
+  
 
+}
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -495,12 +558,14 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .footer-icons {
   display: flex;
   padding-top: 16px;
+  
   gap: 16px;
   justify-content: center;
+
+
 }
 .footer-social-icons {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -508,4 +573,48 @@ a {
 .footer-icons .social-icons:hover,
 .footer-icons .social-icons:focus {
   background-color: #31d0aa;
+}
+.form {
+  
+  gap: ;
+  padding;
+  width: 264px;
+  height: 40px;
+  
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color:  #FFF;
+font-size: 12px;
+font-weight: 400;
+line-height: 2; 
+letter-spacing: 0.02em;
+text-align: start;
+align-items: center;
+
+}
+.footer-imail {
+  display: flex;
+  column-gap: 24px ;
+  align-items: baseline;
+}
+.footer-subscribe {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-bottom: 16px;
+}
+.form-button{
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.footer-subscribe-my{
+  
+  justify-content: center;
 }
