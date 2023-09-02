@@ -60,29 +60,6 @@
 
         <button class="button-title" type="button">Order Service</button>
       </div>
-      <div class="menu">
-     <h4 class="menu-contacts"> Leave your contacts and we will call you back</h4>
-      
-        <label class="form-label" for="username">Name
-          <input class="form-input" type="text" name="username" />
-        </label>
-        <label class="form-label" for="phone">Phone
-          <input class="form-input" type="text" name="phone" />
-        </label>
-        <label class="form-label" for="email_address">Email
-          <input class="form-input" type="email" name="email" />
-        </label>
-        <label class="form-label" >
-          Comment
-          <textarea class="form-input" name="description" rows="5" placeholder="Text input">
-              
-          </textarea>
-
-
-        <button class="form-button" type="submit">Send</button>
-      </div>
-
-      </form>
     </section>
     <!-- Description -->
     <section class="container-description-my">
@@ -447,23 +424,26 @@
           </li>
         </ul>
       </div>
-      <div class="footer-subscribe-my">
-        <p class="footer-subscribe">Subscribe</p>
+      <div class="form-text-footer"> 
+        <p class="form-subscribe"> Subscribe</p>
+        <form class="form" >
 
-        <div class="footer-imail">
-          <form class="form" name="E-mail" autocomplete="off">
-            E-mail
-          </form>
-
-          <button class="form-button" type="submit">Subscribe
-
-          </button>
-        </div>
+        <label class="form-label">
+    
+          <input class="form-input" type="email" name="email" placeholder="E-mail" />
+        </label>
+        <button class="form-button" type="subscribe">Subscribe</button>
+        <svg class="social-icons-color frame " width="24" height="24">
+          <use href="./images/icons.svg#icon-Frame"></use>
+        </svg>
+      </form>
       </div>
     </div>
 
 
   </footer>
+  <!-- modal window -->
+
 </body>
 
 </html>
