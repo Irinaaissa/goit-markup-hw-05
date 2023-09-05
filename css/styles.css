@@ -26,6 +26,9 @@ a {
   padding-right: 15px;
   margin: 0 auto;
 }
+.input {
+	font-family: inherit;
+}
 /* menu */
 
 /* header */
@@ -156,6 +159,7 @@ a {
   display: flex;
   gap: 40px;
   margin: 0 auto;
+
 }
 .post-title {
   color: #fff;
@@ -437,7 +441,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-
 }
 .footer-title {
   color: #4d5ae5;
@@ -474,7 +477,7 @@ a {
 }
 .footer-my {
   display: flex;
-  
+
   align-items: baseline;
 }
 .footer-icons .social-icons {
@@ -501,19 +504,18 @@ a {
   background-color: #31d0aa;
 }
 /* new */
-.form{
+.form {
   display: flex;
   position: relative;
 }
 .form-text-footer {
-  
   padding-top: 100px;
 }
-.form-subscribe{
+.form-subscribe {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1,5;
   letter-spacing: 0.02em;
   padding-bottom: 16px;
 }
@@ -524,26 +526,164 @@ a {
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #2e2f42;
-  
-}
-.form-input {
-  padding-top:  8px;
+  padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
   font-family: inherit;
   margin-right: 24px;
 }
-.form-button{
-  
+
+.form-button {
   width: 165px;
   height: 40px;
   border-radius: 4px;
-background: #4D5AE5;
-padding: 8px 64px 8px 24px;
-color:  #FFF;
+  background: #4d5ae5;
+  padding: 8px 64px 8px 24px;
+  color: #fff;
 }
-.frame{
+.frame {
   position: absolute;
   top: 8px;
   right: 24px;
 }
+/*  modal window*/
+.form-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-height: 584px;
+  width: 408px;
+  background: #FCFCFC;
+}
+
+.feedback_form {
+ 
+  flex-direction: column;
+  padding: 24px;
+  gap: 8px;
+
+  display: flex;
+
+ 
+}
+.menu-contacts{
+  color:  #2E2F42;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1,5; /* 150% */
+letter-spacing: 0.02;
+padding-top: 48px;
+}
+
+.form-button-x{
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--cornflower);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.close-black{
+ fill: #2E2F42;
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-feedback_form{
+color:#212121;
+    border: 1px solid #212121;
+  }
+  .form-label{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 8px;
+    
+  }
+  .form-input-feedback {
+    border-radius: 4px;
+    border: 1px solid #2e2f42 rgba(46, 47, 66, 0.40); 
+  }
+
+  .form-input-comment{
+display: block;
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.04em;
+	color: rgba(46, 47, 66, 0.4);
+	border-radius: 4px;
+	background-color: transparent;
+	border: 1px solid rgba(46, 47, 66, 0.4);
+	outline: transparent;
+	padding: 8px 16px;
+	resize: none;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+  
+  .privacy-policy{
+  color:  #4D5AE5;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.48px;
+  text-decoration-line: underline;
+}
+
+
+  .form-label-end{
+    display: flex;
+    color:  #8E8F99;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 1,17; 
+letter-spacing: 0.04em;
+
+  }
+  .modal-content{
+    row-gap: 4px;
+  }
+  .form-button-tnd{
+    width: 159px;
+    height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 24px;
+padding: 16px 32px;
+border-radius: 4px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color:  #FFF;
+cursor: pointer;
+
+  }
+  .checkbox{
+    display: flex;
+    column-gap: 8px;
+    align-items: baseline;
+    padding-top: 8px;
+  }
+  .icons-color-person{
+    position: absolute;
+    width: 18px;
+height: 18px;
+    top: 22px;
+left: 16px;
+
+
+  }

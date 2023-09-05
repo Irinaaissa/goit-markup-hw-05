@@ -424,19 +424,19 @@
           </li>
         </ul>
       </div>
-      <div class="form-text-footer"> 
+      <div class="form-text-footer">
         <p class="form-subscribe"> Subscribe</p>
-        <form class="form" >
+        <form class="form">
 
-        <label class="form-label">
-    
-          <input class="form-input" type="email" name="email" placeholder="E-mail" />
-        </label>
-        <button class="form-button" type="subscribe">Subscribe</button>
-        <svg class="social-icons-color frame " width="24" height="24">
-          <use href="./images/icons.svg#icon-Frame"></use>
-        </svg>
-      </form>
+          <label class="form-label">
+
+            <input class="form-input" type="email" name="email" placeholder="E-mail" />
+          </label>
+          <button class="form-button" type="submit">Subscribe</button>
+          <svg class="social-icons-color frame " width="24" height="24">
+            <use href="./images/icons.svg#icon-Frame"></use>
+          </svg>
+        </form>
       </div>
     </div>
 
@@ -444,6 +444,54 @@
   </footer>
   <!-- modal window -->
 
+  <div class="form-container">
+    
+      <form class="feedback_form" name="feedback_form" autocomplete="off" novalidate>
+        <button class="form-button-x" type="close">
+        <svg class="close-black " width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use></svg>
+        </button>
+          <p class="menu-contacts"> Leave your contacts and we will call you back</p>
+          <div class="modal-content">
+          <label class="form-label" for="username">Name
+            <input class="form-input-feedback" type="text"  id="username" name="username" />
+            <svg class="icons-color-person" width="16" height="16">
+              <use href="./images/icons.svg#icon-person-black"></use>
+            </svg>
+          </label>
+          <label class="form-label" for="phone">Phone
+            <input class="form-input-feedback" id="phone" type="tel" name="phone" />
+            <svg class="icons-color-person" width="16" height="16">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+          </label>
+          <label class="form-label" for="email_address">Email
+            <input class="form-input-feedback" type="email" id="email" name="email" />
+            <svg class="icons-color-person" width="16" height="16">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+          </label>
+          <label class="form-label">
+            Comment
+            <textarea class="form-input-feedback"  rows="5" name="description" id="description" placeholder="Text input"></textarea>
+            
+          </div>
+          <div class="checkbox">
+            <label >
+              <input type="checkbox" class="form-input-comment" name="conditions" value="sports" />
+            </label>
+            
+             <p class="form-label-end"> I accept the terms and conditions of the <span class="privacy-policy">Privacy Policy</span></p>
+            </div>
+            <button class="form-button-tnd" type="submit">Send</button>
+      
+          
+          
+          
+
+
+  </div>
+  </form>
 </body>
 
 </html>
