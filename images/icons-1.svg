@@ -50,7 +50,7 @@
       <path fill="#4d5ae5" d="M13.876 20.267h-.005a1.6 1.6 0 1 0-.004 3.2h.005a1.6 1.6 0 1 0 .004-3.2zm.373 1.978a.534.534 0 0 1-.752-.756.534.534 0 0 1 .373-.155.534.534 0 0 1 .374.911h.005z" style="fill:var(--color1, #4d5ae5)"/>
     </symbol>
     <symbol id="icon-checkmark" viewBox="0 0 32 32">
-      <path d="M27 4 12 19l-7-7-5 5 12 12L32 9z"/>
-    </symbol>
+<path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+</symbol>
   </defs>
 </svg>
